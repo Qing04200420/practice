@@ -1,5 +1,7 @@
 html,body{
     background-color: #222;
+    margin: 0;
+    padding: 0;
 }
 h1{
     color:rgb(41, 198, 13);
@@ -7,8 +9,14 @@ h1{
 }
 ul li{
     background-color: #fff;
-    padding: 20px;
+    padding: 25px;
     display: inline-block;
     margin: 20px;
     width: 200px;
+}
+
+ul li span{
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
 }
